@@ -2,6 +2,10 @@
 
 Simple microservices demo.
 
+## architecture
+
+![architecture](https://raw.githubusercontent.com/yusufd89/spring_microservices_demo/master/etc/architecture.png)
+
 ## requirements
 
   - Maven 3
@@ -18,6 +22,7 @@ Only run from command line:
  
 - Direct url to book-service http://localhost:8081/mybooks-public
 
+
 - Url to service over zuul proxy http://localhost:9999/book-service-client/mybooks-public
 
   user credentials
@@ -27,5 +32,6 @@ Only run from command line:
     
 
 - Discovery Server http://localhost:8761/
+
 
 - Zipkin http://localhost:9411
