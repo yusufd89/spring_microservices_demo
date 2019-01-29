@@ -1,0 +1,2 @@
+- spring sürümlerini güncelle
+- maven'da olan docker eklentisinin sürümünü güncelle
